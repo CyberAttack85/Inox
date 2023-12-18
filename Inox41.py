@@ -599,7 +599,7 @@ def danger_menu():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/Kawcar/APPROBALL1/blob/main/Paid.txt").text
+    DARK=requests.get("https://github.com/CyberAttack85/Aproval/blob/main/Aproval.tex").text
     if id in DARK:
         DANGER()
     else:
